@@ -6,4 +6,6 @@ M.ui = {
   theme = "one_light",
 }
 
+M.plugins = require "custom.plugins"
+
 return M
