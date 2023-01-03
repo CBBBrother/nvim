@@ -8,6 +8,6 @@ for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
-    cmd = { "clangd", "--completion-style=detailed" }
+    cmd = { "clangd", "--completion-style=detailed", "--background-index", "-j=8", "--header-insertion=never" }
   }
 end
