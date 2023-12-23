@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-local M = {}
-
-=======
 ---@type MappingsTable
 local M = {}
 
@@ -12,6 +8,5 @@ M.general = {
 }
 
 -- more keybinds!
->>>>>>> d5df25c (pinned state)
 
 return M
